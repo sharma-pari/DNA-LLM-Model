@@ -1,6 +1,6 @@
-# DNA-LLM-Model
+# DNA LLM Model
 
-The purpose of this project is to train various LLMs to identify key markers in DNA sequences. 
+The purpose of this project is to train various LLMs to identify key markers in DNA sequences.  
 
 # Table of Contents
 1. [Team Members](#team-members)

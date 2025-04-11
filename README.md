@@ -23,4 +23,26 @@ The purpose of this project is to train various LLMs to identify key markers in 
 | Evaluate models, graphs + visulizations        | Friday    (3/28) | In Progress |
 | Debug/refine hyperparameters (batch/learning rate) | Tuesday    (4/15) | In Progress |
 
+# DNA Promoter Classification
+
+This project classifies promoter vs. non-promoter regions in the human genome using machine learning.
+
+## 🧬 Dataset
+
+- Extracted from human chromosome 1 (`chr1.fa`)
+- 1000 promoter sequences (200 bp upstream of gene start)
+- 1000 non-promoter sequences (200 bp random from non-promoter regions)
+- Final dataset: `Data/labeled_sequences.csv`
+
+## 🔧 Tools Used
+
+- `bedtools`, `awk` for data extraction
+- `Biopython` for FASTA parsing
+- Python + scikit-learn or PyTorch/TensorFlow (upcoming)
+
+## 📁 Directory Structure
+
+
 ## Resources <a name="resources"></a>
+
+

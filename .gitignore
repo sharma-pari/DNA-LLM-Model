@@ -1,1 +1,7 @@
 **/.DS_Store
+Data/chr1.fa
+Data/chr1.fa.fai
+Data/promoters_1kb.*
+Data/non_promoter_genes.*
+Data/complement_*
+Data/sorted_promoters_sample.bed

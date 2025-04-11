@@ -1,1 +1,14 @@
+# macOS system file
 **/.DS_Store
+
+# Large files not suitable for GitHub
+Data/chr1.fa
+Data/chr1.fa.fai
+
+# Full-length datasets (use samples instead)
+Data/promoters_1kb.*
+Data/non_promoter_genes.*
+
+# Temporary/intermediate files
+Data/complement_*
+Data/sorted_promoters_sample.bed

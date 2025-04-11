@@ -21,4 +21,4 @@ with open("Data/labeled_sequences.csv", "w", newline="") as f:
     writer.writerow(["sequence", "label"])
     writer.writerows(all_sequences)
 
-print("✅ Labeled dataset saved to Data/labeled_sequences.csv")
+print("Labeled dataset saved to Data/labeled_sequences.csv")

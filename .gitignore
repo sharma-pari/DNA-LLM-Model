@@ -5,3 +5,5 @@ Data/promoters_1kb.*
 Data/non_promoter_genes.*
 Data/complement_*
 Data/sorted_promoters_sample.bed
+Data/*.fa
+Data/labeled_sequences.csv

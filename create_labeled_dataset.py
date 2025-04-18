@@ -6,8 +6,8 @@ def fasta_to_labeled_list(fasta_path, label):
     return [(str(record.seq), label) for record in records]
 
 # Load promoter and non-promoter sequences
-promoters = fasta_to_labeled_list("Data/promoters_sample_10k.fa", 1)
-non_promoters = fasta_to_labeled_list("Data/non_promoters_sample_10k.fa", 0)
+promoters = fasta_to_labeled_list("Data/promoters_sample_5k.fa", 1)
+non_promoters = fasta_to_labeled_list("Data/non_promoters_sample_5k.fa", 0)
 
 # Combine and shuffle
 all_sequences = promoters + non_promoters
